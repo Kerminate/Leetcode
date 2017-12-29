@@ -10,12 +10,12 @@ var twoSum = function (nums, target) {
       if (nums[i] + nums[j] === target) {
         res.push(i)
         res.push(j)
-        // console.log(res)
         return res
       }
     }
   }
 }
 
-// var nums = [2, 7, 11, 15], target = 9
-// twoSum(nums, target)
+var nums = [2, 7, 11, 15]
+var target = 9
+console.log(twoSum(nums, target))
