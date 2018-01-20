@@ -7,41 +7,56 @@ var searchRange = function (nums, target) {
   let len = nums.length
   let end = len - 1
   let start = 0
-  let arr = -1
-  if (nums[start] === target) arr = target
-  if (nums[end] === target) arr = end
+  let head = -1
+  let tail = -1
+  if (nums[start] === target) head = start
+  if (nums[end] === target) tail = end
+  if (head !== -1 && tail !== -1) return [head, tail]
   while (start < end) {
     let mid = start + Math.floor((end - start) / 2)
     if (nums[mid] === target) {
-      arr = mid
-      break
+      if (nums[mid] !== nums[mid - 1]) {
+        head = mid
+        break
+      } else {
+        end = mid
+        mid--
+      }
     } else if (nums[mid] < target) {
       start = mid
       start++
     } else if (nums[mid] > target) {
       end = mid
-      mid--
+      end--
     }
   }
-  if (arr === -1) return [-1, -1]
-  let head = arr
-  let tail = arr
-  for (let i = arr - 1; i >= 0; i--) {
-    if (nums[i] === target) {
-      head = i
-    } else {
-      break
+  if (nums[start] === target) head = start
+  if (head === -1) return [-1, -1]
+  start = 0
+  end = len - 1
+  while (start < end) {
+    let mid = start + Math.floor((end - start) / 2)
+    if (nums[mid] === target) {
+      if (nums[mid] !== nums[mid + 1]) {
+        tail = mid
+        break
+      } else {
+        start = mid
+        start++
+      }
+    } else if (nums[mid] < target) {
+      start = mid
+      start++
+    } else if (nums[mid] > target) {
+      end = mid
+      end--
     }
   }
-  for (let i = arr + 1; i < len; i++) {
-    if (nums[i] === target) {
-      tail = i
-    } else {
-      break
-    }
-  }
+  if (nums[end] === target) tail = end
   return [head, tail]
 }
 
-console.log(searchRange([5, 7, 7, 8, 8, 10], 8))
-console.log(searchRange([1], 1))
+// console.log(searchRange([5, 7, 7, 8, 8, 10], 8))
+// console.log(searchRange([1], 1))
+// console.log(searchRange([3, 3, 3], 3))
+console.log(searchRange([1, 2, 3, 3, 3, 3, 4, 5, 9], 3))
