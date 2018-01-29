@@ -29,3 +29,4 @@ var isMatch = function (s, p) {
 
 console.log(isMatch('abc', 'ab*'))
 console.log(isMatch('aa', 'a'))
+console.log(isMatch('aa', '*'))
