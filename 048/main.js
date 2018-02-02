@@ -23,7 +23,6 @@ var rotate = function (matrix) {
     right--
     len -= 2
   }
-  return matrix
 }
 
 console.log(rotate([
