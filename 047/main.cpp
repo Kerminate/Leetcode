@@ -9,11 +9,7 @@ public:
         dfs(res, arr, s, nums);
         return res;
     }
-
-    bool cmp (int a, int b) {
-        return a < b;
-    }
-
+    
     void dfs(vector<vector<int> >& res, vector<int>& arr, set<int>& s, vector<int>& nums) {
         if (arr.size() == nums.size()) {
             res.push_back(arr);
