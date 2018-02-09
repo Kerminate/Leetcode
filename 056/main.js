@@ -43,19 +43,3 @@ const l3 = new Interval(8, 10)
 const l4 = new Interval(15, 18)
 let i1 = [l1, l2, l3, l4]
 console.log(merge(i1))
-// console.log(merge(i2))
-
-// let exa = [
-//   { start: 1, end: 3 },
-//   { start: 1, end: 6 },
-//   { start: 4, end: 6 },
-//   { start: 5, end: 8 }
-// ]
-// exa.sort((a, b) => {
-//   if (a.start !== b.start) {
-//     return a.start - b.start
-//   } else {
-//     return a.end - b.end
-//   }
-// })
-// console.log(exa)
