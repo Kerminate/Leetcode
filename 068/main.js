@@ -23,15 +23,8 @@ var fullJustify = function (words, maxWidth) {
       let space = maxWidth - sum
       mid = ''
       if (arr.length === 1) {
-        let right = Math.floor(space, 2)
-        let left = space - right
-        while (left--) {
-          mid += ' '
-        }
         mid += arr[0]
-        while (right--) {
-          mid += ' '
-        }
+        while (space--) mid += ' '
         res.push(mid)
       } else {
         let num = Math.floor(space / (arr.length - 1))
@@ -68,3 +61,5 @@ console.log(fullJustify(['a'], 1))
 console.log(fullJustify(['What', 'must', 'be', 'shall', 'be.'], 12))
 console.log(fullJustify([''], 12))
 console.log(fullJustify([''], 0))
+console.log(fullJustify(['a', 'b', 'c', 'd', 'e'], 1))
+console.log(fullJustify(['Listen', 'to', 'many,', 'speak', 'to', 'a', 'few.'], 6))
