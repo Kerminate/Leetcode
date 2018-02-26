@@ -23,3 +23,4 @@ var intToRoman = function (num) {
 
 console.log(intToRoman(45))
 console.log(intToRoman(3999))
+console.log(intToRoman(399))
