@@ -26,3 +26,4 @@ var romanToInt = function (s) {
 
 console.log(romanToInt('XCIX'))
 console.log(romanToInt('X'))
+console.log(romanToInt('VIII'))
