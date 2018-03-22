@@ -71,4 +71,30 @@
 - [069 Sqrt(x)](./069)
 - [070 Climbing Stairs](./070)
 - [071 Simplify Path](./071)
+- [073 Set Matrix Zeroes](./073)
+- [074 Search a 2D Matrix](./074)
+- [075 Sort Colors](./075)
+- [076 Minimum Window Substring](./076)
+- [077 Combinations](./077)
+- [078 Subsets](./078)
+- [079 Word Search](./079)
+- [080 Remove Duplicates from Sorted Array II](./080)
+- [081 Search in Rotated Sorted Array II](./081)
+- [082 Remove Duplicates from Sorted List II](./082)
+- [083 Remove Duplicates from Sorted List](./083)
+- [084 Largest Rectangle in Histogram](./084)
+- [085 Maximal Rectangle](./085)
+- [086 Partition List](./086)
+- [087 Scramble String](./087)
+- [094 Binary Tree Inorder Traversal](./094)
+- [095 Unique Binary Search Trees II](./095)
+- [096 Unique Binary Search Trees](./096)
+- [097 Interleaving String](./097)
+- [098 Validate Binary Search Tree](./098)
+- [099 Recover Binary Search Tree](./099)
+- [115 Distinct Subsequences](./115)
+
+
+
+
 
