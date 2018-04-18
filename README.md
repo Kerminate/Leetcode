@@ -86,13 +86,36 @@
 - [085 Maximal Rectangle](./085)
 - [086 Partition List](./086)
 - [087 Scramble String](./087)
+- [088 Merge Sorted Array](./088)
+- [089 Gray Code](./089)
 - [094 Binary Tree Inorder Traversal](./094)
 - [095 Unique Binary Search Trees II](./095)
 - [096 Unique Binary Search Trees](./096)
 - [097 Interleaving String](./097)
 - [098 Validate Binary Search Tree](./098)
 - [099 Recover Binary Search Tree](./099)
-- [115 Distinct Subsequences](./115)
+- [121 Best Time to Buy and Sell Stock](./121)
+- [122 Best Time to Buy and Sell Stock II](./122)
+- [123 Best Time to Buy and Sell Stock III](./123)
+- [124 Binary Tree Maximum Path Sum](./124)
+- [126 Word Ladder II](./126)
+- [127 Word Ladder](./127)
+- [128 Longest Consecutive Sequence](./128)
+- [131 Palindrome Partitioning](./131)
+- [132 Palindrome Partitioning II](./132)
+- [135 Candy](./135)
+- [139 Word Break](./139)
+- [140 Word Break II](./140)
+- [146 LRU Cache](./146)
+- [149 Max Points on a Line](./149)
+- [164 Maximum Gap](./164)
+- [174 Dungeon Game](./174)
+- [188 Best Time to Buy and Sell Stock IV](./188)
+- [212 Word Search II](./212)
+- [214 Shortest Palindrome](./214)
+
+
+
 
 
 
